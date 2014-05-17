@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<validates>
+	<validate class="com.zorbit.utils.eImporter.validate.Validate" method="idCard"  >
+		<param dataType="java.lang.String" />
+	</validate>
+	<validate class="com.zorbit.utils.eImporter.validate.Validate" method="isDate"  >
+		<param dataType="java.lang.String" />
+	</validate>
+	<validate class="com.zorbit.utils.eImporter.validate.Validate" method="isInteger"  >
+		<param dataType="java.lang.String" />
+	</validate>
+	<validate class="com.zorbit.utils.eImporter.validate.Validate" method="isLong"  >
+		<param dataType="java.lang.String" />
+	</validate>
+	<validate class="com.zorbit.utils.eImporter.validate.Validate" method="isDouble"  >
+		<param dataType="java.lang.String" />
+	</validate>
+	<validate class="com.zorbit.utils.eImporter.validate.Validate" method="isFloat"  >
+		<param dataType="java.lang.String" />
+	</validate>
+	<validate class="com.zorbit.utils.eImporter.validate.Validate" method="isEmail"  >
+		<param dataType="java.lang.String" />
+	</validate>
+	<validate class="com.zorbit.utils.eImporter.validate.Validate" method="required"  >
+		<param dataType="java.lang.String" />
+	</validate>
+	<validate class="com.zorbit.utils.eImporter.validate.Validate" method="integerRange"  >
+		<param dataType="java.lang.String" />
+		<param dataType="java.lang.Integer" />
+		<param dataType="java.lang.Integer" />
+	</validate>
+</validates>

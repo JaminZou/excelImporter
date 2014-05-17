@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<excels>
+	<excel id="100000"  name="客人信息导入模版" >
+		<sheet id="10100" name="客人信息" index="0" headerRowNum="1"  title="客人信息" >
+			<column id="101001" index="0" dataType="java.lang.String" name="中文姓名" columnName="cname" validateMethod = "required"  validateMsg="required:客人姓名必填"></column>
+			<column id="101001" index="52" dataType="java.lang.Integer" name="年龄" columnName="iage" validateMethod = "isInteger,integerRange:20|60"  validateMsg="isInteger:年龄必须为整数,integerRange:年龄范围20-60"></column>
+			<column id="101002" index="1" dataType="java.lang.String" name="性别" columnName="csex" valueRange="男,女" ></column>
+			<column id="101003" index="2" dataType="java.lang.String" name="证件号码" columnName="cidcard" validateMethod = "idCard,required"  validateMsg="required:客人证件号码必填,idCard:客人证件号码格式错误" ></column>
+			<column id="101004" index="3" dataType="java.lang.String" name="游客类型" columnName="ctype" valueRange="成人,老人,儿童" ></column>
+			<column id="101005" index="4" dataType="java.lang.String" name="户 口 地" columnName="clegalplace"  ></column>
+			<column id="101006" index="5" dataType="java.lang.String" name="出 生 地" columnName="cbirthplace"  ></column>
+			<column id="101007" index="6" dataType="java.lang.String" name="拼 音 姓" columnName="cfamilyname"  ></column>
+			<column id="101008" index="7" dataType="java.lang.String" name="拼 音 名" columnName="cgivenname"  ></column>
+			<column id="101009" index="8" dataType="java.lang.String" name="国 籍" columnName="cnation"  ></column>
+			<column id="101010" index="9" dataType="java.lang.String" name="士官证号" columnName="carmycode"  ></column>
+			<column id="101011" index="10" dataType="java.lang.String" name="学 历" columnName="ceducation"  valueRange="本科,大专,博士" ></column>
+			<column id="101012" index="11" dataType="java.lang.String" name="民 族" columnName="cfolk"  ></column>
+			<column id="101013" index="12" dataType="java.util.Date" name="出生日期" columnName="dbirthday"   validateMethod = "isDate" validateMsg="isDate:生日格式不正确；yyyy-MM-dd"></column>
+			<column id="101014" index="13" dataType="java.lang.String" name="电子邮件" columnName="cemail"  validateMethod = "isEmail" validateMsg="isEmail:电子邮件格式错误"></column>
+			<column id="101015" index="14" dataType="java.lang.String" name="婚姻状况" columnName="cmarriage"  ></column>
+			<column id="101016" index="15" dataType="java.lang.String" name="家庭地址" columnName="chomeaddr"  ></column>
+			<column id="101017" index="16" dataType="java.lang.String" name="家庭邮编" columnName="chomezip"  ></column>
+			<column id="101018" index="17" dataType="java.lang.String" name="家庭电话" columnName="chometel"  ></column>
+			<column id="101019" index="18" dataType="java.lang.String" name="手机" columnName="cmobiletel"  ></column>
+			<column id="101020" index="19" dataType="java.lang.String" name="MSN帐号" columnName="cmsn"  ></column>
+			<column id="101021" index="20" dataType="java.lang.String" name="QQ帐号" columnName="cqq"  ></column>
+			<column id="101022" index="21" dataType="java.lang.String" name="公司名称" columnName="ccorpname"  ></column>
+			<column id="101023" index="22" dataType="java.lang.String" name="公司地址" columnName="ccorpaddr"  ></column>
+			<column id="101024" index="23" dataType="java.lang.String" name="公司电话" columnName="ccorptel"  ></column>
+			<column id="101025" index="24" dataType="java.lang.String" name="公司传真" columnName="ccorpfax"  ></column>
+			<column id="101026" index="25" dataType="java.lang.String" name="公司邮编" columnName="ccorpzip"  ></column>
+			<column id="101027" index="26" dataType="java.lang.Integer" name="房间号" columnName="iroomno"  validateMethod = "isInteger"  validateMsg="isInteger:房间号须为整数"></column>
+			<column id="101028" index="27" dataType="java.lang.String" name="联运城市" columnName="clycity"  ></column>
+			<column id="101029" index="28" dataType="java.lang.String" name="区域" columnName="carea"  ></column>
+			<column id="101030" index="29" dataType="java.lang.String" name="客户代表" columnName="cguestdeputy"  ></column>
+			<column id="101031" index="30" dataType="java.lang.String" name="去程离" columnName="cgostarter"  ></column>
+			<column id="101032" index="31" dataType="java.lang.String" name="去程抵" columnName="cgotarget"  ></column>
+			<column id="101033" index="32" dataType="java.lang.String" name="回程离" columnName="cbackstarter"  ></column>
+			<column id="101034" index="33" dataType="java.lang.String" name="回程抵" columnName="cbacktarget"  ></column>
+			<column id="101035" index="34" dataType="java.lang.String" name="航班号去" columnName="cgoflightnum"  ></column>
+			<column id="101036" index="35" dataType="java.lang.String" name="机票号去" columnName="cgopassengertickenum"  ></column>
+			<column id="101037" index="36" dataType="java.lang.String" name="仓位去" columnName="cgopositions"  ></column>
+			<column id="101038" index="37" dataType="java.lang.String" name="航班号回" columnName="cbackflightnum"  ></column>
+			<column id="101039" index="38" dataType="java.lang.String" name="机票号回" columnName="cbackpassengertickenum"  ></column>
+			<column id="101040" index="39" dataType="java.lang.String" name="仓位回" columnName="cbackpositions"  ></column>
+			<column id="101041" index="40" dataType="java.lang.String" name="护照号码" columnName="cpasscode"  ></column>
+			<column id="101042" index="41" dataType="java.lang.String" name="签 发 地" columnName="cpassplace"  ></column>
+			<column id="101043" index="42" dataType="java.util.Date" name="有 效 期开始" columnName="dpassbegindate"  validateMethod = "isDate" validateMsg="isDate:生日格式不正确；yyyy-MM-dd"></column>
+			<column id="101044" index="43" dataType="java.util.Date" name="有 效 期结束" columnName="dpassenddate"  validateMethod = "isDate" validateMsg="isDate:生日格式不正确；yyyy-MM-dd"></column>
+			<column id="101045" index="44" dataType="java.lang.String" name="港澳通行证号码" columnName="cgapasscode"  ></column>
+			<column id="101046" index="45" dataType="java.lang.String" name="港澳通行证签发地" columnName="cgapassplace"  ></column>
+			<column id="101047" index="46" dataType="java.util.Date" name="港澳通行证有效期开始" columnName="dgapassbegindate"   validateMethod = "isDate" validateMsg="isDate:生日格式不正确；yyyy-MM-dd"></column>
+			<column id="101048" index="47" dataType="java.util.Date" name="港澳通行证有效期结束" columnName="dgapassenddate"   validateMethod = "isDate" validateMsg="isDate:生日格式不正确；yyyy-MM-dd"></column>
+			<column id="101049" index="48" dataType="java.lang.String" name="台湾通行证号码" columnName="ctwpasscode"  ></column>
+			<column id="101050" index="49" dataType="java.lang.String" name="台湾通行证签发地" columnName="ctwpassplace"  ></column>
+			<column id="101051" index="50" dataType="java.util.Date" name="台湾通行证有效期开始" columnName="dtwpassbegindate"   validateMethod = "isDate" validateMsg="isDate:生日格式不正确；yyyy-MM-dd"></column>
+			<column id="101052" index="51" dataType="java.util.Date" name="台湾通行证有效期结束" columnName="dtwpassenddate"   validateMethod = "isDate" validateMsg="isDate:生日格式不正确；yyyy-MM-dd"></column>
+		</sheet>
+	</excel>
+</excels>
